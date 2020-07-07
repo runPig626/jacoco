@@ -3,6 +3,10 @@ package com.oyhp.demo.jacoco;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author monda
+ */
+
 @SpringBootApplication
 public class JacocoApplication {
 

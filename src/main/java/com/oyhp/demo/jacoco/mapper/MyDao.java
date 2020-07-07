@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * @author OuYangHaiPing<OuYanghp @ pvc123.com>
  * @date 2020-07-03
  */
-@Component
+//@Component
 public interface MyDao {
     /**
      * 计算结果

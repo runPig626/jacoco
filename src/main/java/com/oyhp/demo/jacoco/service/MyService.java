@@ -12,13 +12,13 @@ import java.util.logging.Logger;
  * @author OuYangHaiPing<OuYanghp @ pvc123.com>
  * @date 2020-07-03
  */
-@Service
+//@Service
 public class MyService {
     private MyDao myDao;
     private Logger logger;
 
 
-    @Autowired
+//    @Autowired
     public MyService(MyDao myDao, Logger logger) {
         this.myDao = myDao;
         this.logger = logger;
