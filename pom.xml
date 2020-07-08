@@ -67,6 +67,7 @@
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <version>1.4.199</version>
+            <scope>runtime</scope>
         </dependency>
 
         <!--2.2.0以上版本已经内置了JUnit5-->
@@ -159,7 +160,8 @@
                     <!--docker不是启动了立马就可以使用的，所以等待docker容器启动10秒-->
                     <execution>
                         <id>wait-docker-mysql</id>
-                        <phase>pre-integration-test</phase>
+                        <!--暂时用不到，docker跑不起来-->
+                        <!--<phase>pre-integration-test</phase>-->
                         <goals>
                             <goal>exec</goal>
                         </goals>
@@ -208,13 +210,14 @@
                         <goals>
                             <goal>report</goal>
                         </goals>
-                        <phase>test</phase>
+                        <phase>integration-test</phase>
                     </execution>
                     <execution>
                         <id>default-check</id>
                         <goals>
                             <goal>check</goal>
                         </goals>
+                        <phase>post-integration-test</phase>
                         <configuration>
                             <rules>
                                 <rule>
@@ -231,6 +234,23 @@
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>
+            <!--flyway数据库迁移插件-->
+            <plugin>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-maven-plugin</artifactId>
+                <configuration>
+                    <!--flyway迁移配置，mvn flyway:lifecycle会自动读取参数-->
+                    <user>root</user>
+                    <password>123456</password>
+                    <url>jdbc:mysql://127.0.0.1:3306/flyway?characterEncoding=UTF-8</url>
+                    <driver>com.mysql.jdbc.Driver</driver>
+                    <!--生产环境false，开发环境true-->
+                    <cleanDisabled>false</cleanDisabled>
+                    <locations>
+                        <location>classpath:db/migration</location>
+                    </locations>
+                </configuration>
             </plugin>
 
         </plugins>

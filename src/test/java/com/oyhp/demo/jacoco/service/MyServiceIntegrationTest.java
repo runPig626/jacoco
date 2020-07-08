@@ -1,6 +1,7 @@
 package com.oyhp.demo.jacoco.service;
 
 import com.oyhp.demo.jacoco.JacocoApplication;
+import com.oyhp.demo.jacoco.model.Category;
 import org.flywaydb.core.Flyway;
 import org.flywaydb.core.api.configuration.ClassicConfiguration;
 import org.junit.jupiter.api.BeforeEach;
@@ -10,6 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
+
+import java.util.List;
 
 /**
  * XXXX
@@ -25,23 +28,23 @@ class MyServiceIntegrationTest {
     CategoryService categoryService;
 
     @BeforeEach
-    public void setUp(){
-        // 初始化内存数据库，以备测试
-        ClassicConfiguration conf = new ClassicConfiguration();
-        conf.setDataSource(
-                "jdbc:h2:mem:test",
-                "test",
-                "test"
-        );
-
-        Flyway flyway = new Flyway(conf);
-        flyway.clean();
-        flyway.migrate();
+    void setUp(){
+        // 初始化内存数据库，以备测试, maven已配置，就不需要java api的了
+//        ClassicConfiguration conf = new ClassicConfiguration();
+//        conf.setDataSource(
+//                "jdbc:h2:mem:test",
+//                "test",
+//                "test"
+//        );
+//
+//        Flyway flyway = new Flyway(conf);
+//        flyway.clean();
+//        flyway.migrate();
     }
 
     @Test
     void test(){
-        categoryService.fillAll();
-        System.out.println("categoryService = " + categoryService);
+        List<Category> categoryList = categoryService.fillAll();
+        System.out.println("categoryList = " + categoryList);
     }
 }

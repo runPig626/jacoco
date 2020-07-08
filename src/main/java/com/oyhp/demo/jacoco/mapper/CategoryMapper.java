@@ -19,7 +19,6 @@ public interface CategoryMapper {
      * 查询所有商品分类
      * @return
      */
-    @Select("select * from category_ ")
     List<Category> findAll();
 
 }
