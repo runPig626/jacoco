@@ -2,7 +2,6 @@ package com.oyhp.demo.jacoco.service;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
 import com.oyhp.demo.jacoco.JacocoApplication;
 import com.oyhp.demo.jacoco.model.Category;
 import org.flywaydb.core.Flyway;
@@ -12,6 +11,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
@@ -31,7 +31,7 @@ import java.util.List;
  * @author OuYangHaiPing<OuYanghp @ pvc123.com>
  * @date 2020-07-06
  */
-@ExtendWith(SpringExtension.class)
+@ExtendWith({SpringExtension.class})
 @SpringBootTest(classes = JacocoApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @TestPropertySource(locations = "classpath:test.properties")
 class MyServiceIntegrationTest {
