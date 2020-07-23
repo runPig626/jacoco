@@ -27,4 +27,12 @@ public class CategoryController {
     public List<Category> listAll(){
         return categoryService.fillAll();
     }
+
+    @GetMapping("add")
+    public String add(){
+        Category category = new Category();
+        category.setName("事务测试");
+        categoryService.add(category);
+        return "OK";
+    }
 }

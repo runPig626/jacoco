@@ -21,4 +21,9 @@ public interface CategoryService {
      */
      List<Category> fillAll();
 
+    /**
+     * 添加商品分类
+     * @param category
+     */
+    void add(Category category);
 }

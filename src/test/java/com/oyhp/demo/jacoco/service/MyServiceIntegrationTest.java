@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.oyhp.demo.jacoco.JacocoApplication;
 import com.oyhp.demo.jacoco.model.Category;
+import org.apache.http.util.Asserts;
 import org.flywaydb.core.Flyway;
 import org.flywaydb.core.api.configuration.ClassicConfiguration;
 import org.junit.jupiter.api.Assertions;
@@ -61,6 +62,14 @@ class MyServiceIntegrationTest {
     void fillAllTest(){
         List<Category> categoryList = categoryService.fillAll();
         System.out.println("categoryList = " + categoryList);
+    }
+
+    @Test
+    void add_test(){
+        Category category = new Category();
+        category.setName("test");
+        categoryService.add(category);
+        List<Category> categoryList = categoryService.fillAll();
     }
 
     @Test

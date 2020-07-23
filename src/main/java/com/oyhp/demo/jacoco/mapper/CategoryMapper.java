@@ -21,4 +21,10 @@ public interface CategoryMapper {
      */
     List<Category> findAll();
 
+    /**
+     * 添加商品分类
+     * @param category
+     * @return
+     */
+    int add(Category category);
 }
