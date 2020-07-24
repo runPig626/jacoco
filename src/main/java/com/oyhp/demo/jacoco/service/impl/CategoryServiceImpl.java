@@ -6,6 +6,7 @@ import com.oyhp.demo.jacoco.service.CategoryService;
 import org.apache.http.util.Asserts;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
@@ -18,11 +19,13 @@ import java.util.List;
  * @date 2020-07-07
  */
 @Service
-@Transactional(rollbackFor = RuntimeException.class)
 public class CategoryServiceImpl implements CategoryService{
 
     @Resource
-    CategoryMapper categoryMapper;
+    private CategoryMapper categoryMapper;
+
+    @Resource
+    private CategoryService categoryService;
 
     @Override
     public List<Category> fillAll() {
@@ -31,6 +34,12 @@ public class CategoryServiceImpl implements CategoryService{
 
     @Override
     public void add(Category category) {
+       categoryService.doAdd(category);
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED,rollbackFor = RuntimeException.class)
+    @Override
+    public void doAdd(Category category){
         int i = categoryMapper.add(category);
         Asserts.check(i<1, "插入失败");
     }

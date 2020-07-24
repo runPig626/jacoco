@@ -1584,3 +1584,343 @@ sun.misc.Launcher$AppClassLoader@18b4aac2
 [2020-07-23 14:59:48] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection conn7: url=jdbc:h2:mem:test user=TEST: (connection evicted)
 [2020-07-23 14:59:48] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection conn8: url=jdbc:h2:mem:test user=TEST: (connection evicted)
 [2020-07-23 14:59:48] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:test user=TEST: (connection evicted)
+[2020-07-23 15:14:26] -- [DEBUG]: [com.oyhp.demo.jacoco.JacocoApplication] -- Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+[2020-07-23 15:14:27] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Searching for mappers annotated with @Mapper'
+[2020-07-23 15:14:27] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Using auto-configuration base package 'com.oyhp.demo.jacoco'
+[2020-07-23 15:14:27] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\Coder\Jacoco\target\classes\com\oyhp\demo\jacoco\mapper\CategoryMapper.class]
+[2020-07-23 15:14:27] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'categoryMapper' and 'com.oyhp.demo.jacoco.mapper.CategoryMapper' mapperInterface
+[2020-07-23 15:14:27] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'categoryMapper'.
+[2020-07-23 15:14:30] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2020-07-23 15:14:31] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2020-07-23 15:14:31] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Parsed configuration file: 'class path resource [mybatis/mybatis-config.xml]'
+[2020-07-23 15:14:31] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\Coder\Jacoco\target\classes\mybatis\mapper\CategoryMapper.xml]'
+[2020-07-23 15:14:31] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- No org.mybatis.spring.mapper.MapperFactoryBean found.
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- HikariPool-1 - configuration:
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.jdbc.Driver"
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- exceptionOverrideClassName......none
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://127.0.0.1:3306/how2java?characterEncoding=UTF-8
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-1"
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2020-07-23 15:15:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2020-07-23 15:15:01] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2020-07-23 15:15:01] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a8b346d]
+[2020-07-23 15:15:01] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1720747089 wrapping com.mysql.jdbc.JDBC4Connection@189c4fc7] will be managed by Spring
+[2020-07-23 15:15:01] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- ==>  Preparing: insert into category_ (name) values(?) 
+[2020-07-23 15:15:01] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- ==> Parameters: 事务测试(String)
+[2020-07-23 15:15:01] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- <==    Updates: 1
+[2020-07-23 15:15:01] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a8b346d]
+[2020-07-23 15:15:01] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a8b346d]
+[2020-07-23 15:15:01] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a8b346d]
+[2020-07-23 15:16:43] -- [DEBUG]: [com.oyhp.demo.jacoco.JacocoApplication] -- Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+[2020-07-23 15:16:44] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Searching for mappers annotated with @Mapper'
+[2020-07-23 15:16:44] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Using auto-configuration base package 'com.oyhp.demo.jacoco'
+[2020-07-23 15:16:44] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\Coder\Jacoco\target\classes\com\oyhp\demo\jacoco\mapper\CategoryMapper.class]
+[2020-07-23 15:16:44] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'categoryMapper' and 'com.oyhp.demo.jacoco.mapper.CategoryMapper' mapperInterface
+[2020-07-23 15:16:44] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'categoryMapper'.
+[2020-07-23 15:16:58] -- [DEBUG]: [com.oyhp.demo.jacoco.JacocoApplication] -- Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+[2020-07-23 15:16:59] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Searching for mappers annotated with @Mapper'
+[2020-07-23 15:16:59] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Using auto-configuration base package 'com.oyhp.demo.jacoco'
+[2020-07-23 15:16:59] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\Coder\Jacoco\target\classes\com\oyhp\demo\jacoco\mapper\CategoryMapper.class]
+[2020-07-23 15:16:59] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'categoryMapper' and 'com.oyhp.demo.jacoco.mapper.CategoryMapper' mapperInterface
+[2020-07-23 15:16:59] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'categoryMapper'.
+[2020-07-23 15:16:59] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2020-07-23 15:16:59] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2020-07-23 15:17:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Parsed configuration file: 'class path resource [mybatis/mybatis-config.xml]'
+[2020-07-23 15:17:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\Coder\Jacoco\target\classes\mybatis\mapper\CategoryMapper.xml]'
+[2020-07-23 15:17:00] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- No org.mybatis.spring.mapper.MapperFactoryBean found.
+[2020-07-23 15:17:10] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2020-07-23 15:17:10] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@abdebe6] was not registered for synchronization because synchronization is not active
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- HikariPool-1 - configuration:
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.jdbc.Driver"
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- exceptionOverrideClassName......none
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://127.0.0.1:3306/how2java?characterEncoding=UTF-8
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-1"
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2020-07-23 15:17:10] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2020-07-23 15:17:11] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@780586343 wrapping com.mysql.jdbc.JDBC4Connection@6fd3867e] will not be managed by Spring
+[2020-07-23 15:17:11] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- ==>  Preparing: insert into category_ (name) values(?) 
+[2020-07-23 15:17:11] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- ==> Parameters: 事务测试(String)
+[2020-07-23 15:17:11] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- <==    Updates: 1
+[2020-07-23 15:17:11] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@abdebe6]
+[2020-07-23 15:18:31] -- [DEBUG]: [com.oyhp.demo.jacoco.JacocoApplication] -- Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+[2020-07-23 15:18:32] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Searching for mappers annotated with @Mapper'
+[2020-07-23 15:18:32] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Using auto-configuration base package 'com.oyhp.demo.jacoco'
+[2020-07-23 15:18:32] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\Coder\Jacoco\target\classes\com\oyhp\demo\jacoco\mapper\CategoryMapper.class]
+[2020-07-23 15:18:32] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'categoryMapper' and 'com.oyhp.demo.jacoco.mapper.CategoryMapper' mapperInterface
+[2020-07-23 15:18:32] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'categoryMapper'.
+[2020-07-23 15:18:33] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2020-07-23 15:18:33] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2020-07-23 15:18:33] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Parsed configuration file: 'class path resource [mybatis/mybatis-config.xml]'
+[2020-07-23 15:18:34] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\Coder\Jacoco\target\classes\mybatis\mapper\CategoryMapper.xml]'
+[2020-07-23 15:18:34] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- No org.mybatis.spring.mapper.MapperFactoryBean found.
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- HikariPool-1 - configuration:
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.jdbc.Driver"
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- exceptionOverrideClassName......none
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://127.0.0.1:3306/how2java?characterEncoding=UTF-8
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-1"
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2020-07-23 15:18:39] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2020-07-23 15:18:39] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2020-07-23 15:18:39] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@647d8149]
+[2020-07-23 15:18:39] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1715903141 wrapping com.mysql.jdbc.JDBC4Connection@4f3f129e] will be managed by Spring
+[2020-07-23 15:18:39] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- ==>  Preparing: insert into category_ (name) values(?) 
+[2020-07-23 15:18:39] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- ==> Parameters: 事务测试(String)
+[2020-07-23 15:18:39] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- <==    Updates: 1
+[2020-07-23 15:18:39] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@647d8149]
+[2020-07-23 15:18:39] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@647d8149]
+[2020-07-23 15:18:39] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@647d8149]
+[2020-07-23 15:21:57] -- [DEBUG]: [com.oyhp.demo.jacoco.JacocoApplication] -- Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+[2020-07-23 15:21:58] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Searching for mappers annotated with @Mapper'
+[2020-07-23 15:21:58] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Using auto-configuration base package 'com.oyhp.demo.jacoco'
+[2020-07-23 15:21:58] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\Coder\Jacoco\target\classes\com\oyhp\demo\jacoco\mapper\CategoryMapper.class]
+[2020-07-23 15:21:58] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'categoryMapper' and 'com.oyhp.demo.jacoco.mapper.CategoryMapper' mapperInterface
+[2020-07-23 15:21:58] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'categoryMapper'.
+[2020-07-23 15:21:59] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2020-07-23 15:21:59] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2020-07-23 15:21:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Parsed configuration file: 'class path resource [mybatis/mybatis-config.xml]'
+[2020-07-23 15:21:59] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\Coder\Jacoco\target\classes\mybatis\mapper\CategoryMapper.xml]'
+[2020-07-23 15:22:00] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- No org.mybatis.spring.mapper.MapperFactoryBean found.
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- HikariPool-1 - configuration:
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.jdbc.Driver"
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- exceptionOverrideClassName......none
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://127.0.0.1:3306/how2java?characterEncoding=UTF-8
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-1"
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2020-07-23 15:22:07] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2020-07-23 15:22:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2020-07-23 15:22:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e6165f5]
+[2020-07-23 15:22:07] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@571055603 wrapping com.mysql.jdbc.JDBC4Connection@1b49e734] will be managed by Spring
+[2020-07-23 15:22:07] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- ==>  Preparing: insert into category_ (name) values(?) 
+[2020-07-23 15:22:07] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- ==> Parameters: 事务测试(String)
+[2020-07-23 15:22:07] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- <==    Updates: 1
+[2020-07-23 15:22:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e6165f5]
+[2020-07-23 15:22:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e6165f5]
+[2020-07-23 15:22:07] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e6165f5]
+[2020-07-23 15:22:51] -- [DEBUG]: [com.oyhp.demo.jacoco.JacocoApplication] -- Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+[2020-07-23 15:22:52] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Searching for mappers annotated with @Mapper'
+[2020-07-23 15:22:52] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Using auto-configuration base package 'com.oyhp.demo.jacoco'
+[2020-07-23 15:22:52] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\Coder\Jacoco\target\classes\com\oyhp\demo\jacoco\mapper\CategoryMapper.class]
+[2020-07-23 15:22:52] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'categoryMapper' and 'com.oyhp.demo.jacoco.mapper.CategoryMapper' mapperInterface
+[2020-07-23 15:22:52] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'categoryMapper'.
+[2020-07-23 15:22:54] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2020-07-23 15:22:54] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2020-07-23 15:22:54] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Parsed configuration file: 'class path resource [mybatis/mybatis-config.xml]'
+[2020-07-23 15:22:54] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\Coder\Jacoco\target\classes\mybatis\mapper\CategoryMapper.xml]'
+[2020-07-23 15:22:54] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- No org.mybatis.spring.mapper.MapperFactoryBean found.
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- HikariPool-1 - configuration:
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.jdbc.Driver"
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- exceptionOverrideClassName......none
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://127.0.0.1:3306/how2java?characterEncoding=UTF-8
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-1"
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2020-07-23 15:23:00] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2020-07-23 15:23:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2020-07-23 15:23:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76f01e40]
+[2020-07-23 15:23:00] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@580873132 wrapping com.mysql.jdbc.JDBC4Connection@52fa2caa] will be managed by Spring
+[2020-07-23 15:23:00] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- ==>  Preparing: insert into category_ (name) values(?) 
+[2020-07-23 15:23:00] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- ==> Parameters: 事务测试(String)
+[2020-07-23 15:23:00] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- <==    Updates: 1
+[2020-07-23 15:23:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76f01e40]
+[2020-07-23 15:23:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76f01e40]
+[2020-07-23 15:23:00] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76f01e40]
+[2020-07-23 15:25:59] -- [DEBUG]: [com.oyhp.demo.jacoco.JacocoApplication] -- Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+[2020-07-23 15:26:00] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Searching for mappers annotated with @Mapper'
+[2020-07-23 15:26:00] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Using auto-configuration base package 'com.oyhp.demo.jacoco'
+[2020-07-23 15:26:00] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\Coder\Jacoco\target\classes\com\oyhp\demo\jacoco\mapper\CategoryMapper.class]
+[2020-07-23 15:26:00] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'categoryMapper' and 'com.oyhp.demo.jacoco.mapper.CategoryMapper' mapperInterface
+[2020-07-23 15:26:00] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'categoryMapper'.
+[2020-07-23 15:27:25] -- [DEBUG]: [com.oyhp.demo.jacoco.JacocoApplication] -- Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+[2020-07-23 15:27:26] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Searching for mappers annotated with @Mapper'
+[2020-07-23 15:27:26] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Using auto-configuration base package 'com.oyhp.demo.jacoco'
+[2020-07-23 15:27:26] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\Coder\Jacoco\target\classes\com\oyhp\demo\jacoco\mapper\CategoryMapper.class]
+[2020-07-23 15:27:26] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'categoryMapper' and 'com.oyhp.demo.jacoco.mapper.CategoryMapper' mapperInterface
+[2020-07-23 15:27:26] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'categoryMapper'.
+[2020-07-23 15:27:27] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2020-07-23 15:27:27] -- [DEBUG]: [org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2020-07-23 15:27:27] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Parsed configuration file: 'class path resource [mybatis/mybatis-config.xml]'
+[2020-07-23 15:27:27] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\Coder\Jacoco\target\classes\mybatis\mapper\CategoryMapper.xml]'
+[2020-07-23 15:27:28] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- No org.mybatis.spring.mapper.MapperFactoryBean found.
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- HikariPool-1 - configuration:
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.jdbc.Driver"
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- exceptionOverrideClassName......none
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://127.0.0.1:3306/how2java?characterEncoding=UTF-8
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-1"
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2020-07-23 15:27:32] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2020-07-23 15:27:32] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2020-07-23 15:27:32] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dc6ba09]
+[2020-07-23 15:27:32] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@922673914 wrapping com.mysql.jdbc.JDBC4Connection@209f0300] will be managed by Spring
+[2020-07-23 15:27:32] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- ==>  Preparing: insert into category_ (name) values(?) 
+[2020-07-23 15:27:32] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- ==> Parameters: 事务测试(String)
+[2020-07-23 15:27:32] -- [DEBUG]: [com.oyhp.demo.jacoco.mapper.CategoryMapper.add] -- <==    Updates: 1
+[2020-07-23 15:27:32] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dc6ba09]
+[2020-07-23 15:27:32] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dc6ba09]
+[2020-07-23 15:27:32] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dc6ba09]

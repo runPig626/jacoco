@@ -1,2 +1,7 @@
 [2020-07-23 14:57:46] -- [WARN ]: [org.flywaydb.core.internal.database.base.Database] -- Flyway upgrade recommended: H2 1.4.199 is newer than this version of Flyway and support has not been tested.
 [2020-07-23 14:59:39] -- [WARN ]: [org.flywaydb.core.internal.database.base.Database] -- Flyway upgrade recommended: H2 1.4.199 is newer than this version of Flyway and support has not been tested.
+[2020-07-23 15:26:01] -- [WARN ]: [org.apache.catalina.loader.WebappClassLoaderBase] -- The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+ com.mysql.jdbc.NonRegisteringDriver$1.run(NonRegisteringDriver.java:93)
