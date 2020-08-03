@@ -26,9 +26,7 @@ public class Product {
 //        } catch (NoSuchMethodException | IllegalAccessException | InstantiationException | InvocationTargetException e) {
 //            e.printStackTrace();
 //        }
-        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        Product product = (Product) context.getBean("product");
-        System.out.println(product);
+
     }
 
     @Override
