@@ -41,7 +41,7 @@ public class CategoryServiceImpl implements CategoryService{
     @Override
     public void doAdd(Category category){
         int i = categoryMapper.add(category);
-        Asserts.check(i<1, "插入失败");
+        Asserts.check(i>=1, "插入失败");
     }
 
 }
