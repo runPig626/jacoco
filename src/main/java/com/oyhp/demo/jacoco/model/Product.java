@@ -1,14 +1,20 @@
 package com.oyhp.demo.jacoco.model;
 
+import com.oyhp.demo.jacoco.reflect.ProductService;
+import com.oyhp.demo.jacoco.reflect.TemplateReflect;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+import java.lang.reflect.InvocationTargetException;
 
 /**
  * @author OuYangHaiPing<ouyanghaiping @ pvc123.com>
  * @date 2020-07-24
  */
-public class Product {
+public class Product extends TemplateReflect<Product>{
+    public int shareId;
+    public String shareName;
     private int id;
     private String productName;
 
@@ -17,16 +23,13 @@ public class Product {
         this.productName = productName;
     }
 
-    public static void main(String[] args) {
-//        Class clazz = Product.class;
-//        try {
-//            Constructor constructor = clazz.getConstructor(Integer.class, String.class);
-//            Product product = (Product) constructor.newInstance(1,"jiaMin");
-//            System.out.println("product = " + product);
-//        } catch (NoSuchMethodException | IllegalAccessException | InstantiationException | InvocationTargetException e) {
-//            e.printStackTrace();
-//        }
+    public Product() {
 
+    }
+
+    public static void main(String[] args) throws InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
+        ProductService service = new ProductService();
+        service.add("bab");
     }
 
     @Override

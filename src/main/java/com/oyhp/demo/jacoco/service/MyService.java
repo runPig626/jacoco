@@ -16,7 +16,6 @@ public class MyService {
     private MyDao myDao;
     private Logger logger;
 
-
     public MyService(MyDao myDao, Logger logger) {
         this.myDao = myDao;
         this.logger = logger;
