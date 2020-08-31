@@ -262,6 +262,7 @@
                         </goals>
                         <phase>post-integration-test</phase>
                         <configuration>
+                            <skip>true</skip>
                             <rules>
                                 <rule>
                                     <element>BUNDLE</element>
