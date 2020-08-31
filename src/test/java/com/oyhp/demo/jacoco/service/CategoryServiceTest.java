@@ -32,14 +32,8 @@ class CategoryServiceTest {
     }
 
     @Test
-    void test_doAdd_success(){
-        Mockito.when(categoryMapper.add(category)).thenReturn(1);
-        Assertions.assertThrows(IllegalStateException.class, ()->categoryService.doAdd(category));
-    }
-
-    @Test
     void test_dooAdd_fail(){
-        Mockito.when(categoryMapper.add(category)).thenReturn(-1);
+        Mockito.when(categoryMapper.add(category)).thenReturn(1);
         Assertions.assertDoesNotThrow(()->categoryService.doAdd(category));
     }
 
